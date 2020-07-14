@@ -12,8 +12,17 @@
   $lorem_length = strlen($lorem_badwords);
 ?>
 
-<h1>Badwords</h1>
-<h4>CHIAMATA GET: Aggiungi all'url "?badwords=" (senza virgolette) seguito da quale parola vuoi censurare.</h4>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Badwords</title>
+  </head>
+  <body>
+    <h1>Badwords</h1>
+    <h4>CHIAMATA GET: Aggiungi all'url "?badwords=" (senza virgolette) seguito da quale parola vuoi censurare.</h4>
 
-<p>Lunghezza paragrafo: (<?php echo $lorem_length?>) caratteri</p>
-<p><?php echo $lorem_badwords?></p>
+    <p>Lunghezza paragrafo: (<?php echo $lorem_length?>) caratteri</p>
+    <p><?php echo $lorem_badwords?></p>
+  </body>
+</html>
